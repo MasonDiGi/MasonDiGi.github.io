@@ -1,0 +1,83 @@
+/* Everywhere */
+body {
+	background: orange;
+}
+
+.text,
+.forms,
+.error {
+	color: white;
+	margin: 1%;
+	padding: 0.5%;
+	background-color: #1178ff;
+	border-radius: 10px;
+	font-size: 100%;
+}
+
+.mason {
+	color: #ff8800;
+	font-family: "Comic Sans MS";
+}
+
+.tech {
+	color: #1178ff;
+	font-family: Impact;
+}
+
+/* Errors */
+.error {
+	border-radius: 10px 10px 0px 0px;
+	font-weight: bold;
+	text-align: center;
+	margin: 2% 35% -2.5% 35%;
+}
+
+/* Form Stuff */
+.forms {
+	margin: 2% 35% 0 35%;
+}
+.forms input[type=text], 
+.forms input[type=date], 
+.forms input[type=email], 
+.forms input[type=submit],
+.forms input[type=password],
+.forms textarea, 
+.forms select {
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 1%;
+	width: 99%;
+	padding: 1%;
+	resize: none;
+}
+
+
+/* Photo Stuff */
+.gallery {
+	background: white;
+}
+
+.rotate {
+	transform: rotate(90deg);
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
